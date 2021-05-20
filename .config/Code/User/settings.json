@@ -1,0 +1,39 @@
+{
+    "workbench.colorTheme": "Night Owl",
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontSize": 18,
+    "editor.lineNumbers": "relative",
+    "editor.rulers": [
+        80
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-shell-escape",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        }
+    ],
+    "window.menuBarVisibility": "toggle",
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    }
+}
