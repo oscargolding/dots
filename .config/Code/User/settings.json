@@ -10,6 +10,7 @@
         "source.fixAll.eslint": true
     },
     "editor.formatOnSave": true,
+    "rust-client.rustupPath": "/home/oscar/.cargo/bin/rustup",
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latex.tools": [
         {
