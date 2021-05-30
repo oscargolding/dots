@@ -36,5 +36,11 @@
     "[javascriptreact]": {
         "editor.tabSize": 2,
         "editor.insertSpaces": true
-    }
+    },
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
 }
