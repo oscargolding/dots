@@ -7,6 +7,10 @@ fi
 
 # Created by oscar
 export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+
+# Export the sudoer
+export SUDO_EDITOR=/usr/bin/nvim
 
 # Enable colors and change prompt:
 autoload -U colors && colors
